@@ -1,7 +1,7 @@
 #Forward substitution (Lc = Pb) and backward substitution (Ux = c) after LU-factorization
 import numpy as np
 def forward_subs(LU,P,b):
-    ''' Forover substitusjonsalgoritme
+    ''' Forover substitusjonsalgoritme 
     Input:
         LU inneholder både L og U, selv om kun L trengs i denne rutinen
         P Permutasjonsvektor av heltall
@@ -9,6 +9,8 @@ def forward_subs(LU,P,b):
     Output:
         c Løsningen av det lineære nedretriangulære systemet Lc=Pb
     '''
+    
+    "hallo"
     n, m = LU.shape
     Pb = b[P]
     c = np.zeros(n)
