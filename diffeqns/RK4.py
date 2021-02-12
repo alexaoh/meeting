@@ -20,4 +20,12 @@ def kutta4(f,t0,y0,h,nsteps):
         T[i+1] = T[i] + h
     return T,Y
 salføkd aølf
+lskjfd oalskfj
+
+
+
+asdfl aflk lkas for 
+
+ in expression_list:
+    pass
 
