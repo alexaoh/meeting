@@ -3,6 +3,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+'''hallo'''
+
 def cholesky(A):
     ''' A er en positiv definitt matrise som returnerer en nedretriangulær matrise L slik at A=L L^T.'''
     n, m = A.shape
