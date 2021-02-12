@@ -5,6 +5,7 @@ def kutta4_step(f, t, y, h):
     f2 = f(t+(h/2), y+(h/2)*f1)
     f3 = f(t+(h/2), y+(h/2)*f2)
     f4 = f(t+h, y+h*f3)
+    #yodude
     return y + (h/6)*(f1+2*f2+2*f3+f4)
 
     
