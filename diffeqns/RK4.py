@@ -20,13 +20,5 @@ def kutta4(f,t0,y0,h,nsteps):
         Y[i+1] = kutta4_step(f, T[i], Y[i], h)
         T[i+1] = T[i] + h
     return T,Y
-salføkd aølf
-lskjfd oalskfj
 
-
-
-asdfl aflk lkas for 
-
- in expression_list:
-    pass
 
