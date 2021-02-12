@@ -12,7 +12,7 @@ def kutta4(f,t0,y0,h,nsteps):
     m = len(y0)
     Y = np.zeros((nsteps+1,m))
     T = np.zeros(nsteps+1)
-    T[0] = t0
+    T[0] = t0 #saldjfhkaklsjfh alfsjlasjhdfla skfd
     Y[0] = y0
     for i in range(nsteps):
         Y[i+1] = kutta4_step(f, T[i], Y[i], h)
