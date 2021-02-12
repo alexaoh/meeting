@@ -6,12 +6,13 @@ def kutta4_step(f, t, y, h):
     f3 = f(t+(h/2), y+(h/2)*f2)
     f4 = f(t+h, y+h*f3)
     return y + (h/6)*(f1+2*f2+2*f3+f4)
+
     
 
 def kutta4(f,t0,y0,h,nsteps):
     m = len(y0)
     Y = np.zeros((nsteps+1,m))
-    T = np.zeros(nsteps+1)
+    T = np.zeros(nsteps+1) # heisann
     T[0] = t0
     Y[0] = y0
     for i in range(nsteps):
