@@ -22,7 +22,7 @@ def kutta4(f,t0,y0,h,nsteps):
 salføkd aølf
 lskjfd oalskfj
 
-
+# Npr har jeg fikset denne.
 
 asdfl aflk lkas for 
 
